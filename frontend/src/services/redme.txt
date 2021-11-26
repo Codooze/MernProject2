@@ -1,0 +1,2 @@
+necesitamos info del servidor
+-usamos la libreria axios para put delete get requests para ello creamos un archivo de ayuda -->> http-coommon.js

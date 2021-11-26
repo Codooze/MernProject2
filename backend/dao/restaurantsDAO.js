@@ -54,7 +54,7 @@ export default class RestaurantsDAO {
     // we are going to limit by restaurants per page and to get the actual page number we do a skip
     const displayCursor = cursor.limit(restaurantsPerPage).skip(restaurantsPerPage * page)
     try {
-      const restaurantsList = await displayCursor.toArray()
+      const restaurantsList = await displayCursor.toArray() //set to an array
       const totalNumRestaurants = await restaurants.countDocuments(query)
       
       return { restaurantsList, totalNumRestaurants }

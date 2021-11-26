@@ -1,6 +1,6 @@
 import RestaurantsDAO from "../dao/restaurantsDAO.js"
 
-//restaurantsPerPage will be equal whatever value it's passed in the url then we comvert the result to int
+//restaurantsPerPage will be equal whatever value it's passed in the url then we convert the result to int
 //if not the default is 20
 //with page we check if we passed a page using the url
 // then we create a respont to be sent when this api url is called
